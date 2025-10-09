@@ -33,7 +33,8 @@ section {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/Mya\ \(2\).jpg");
+  url("../images/Mya (2).jpg");
+;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -79,8 +80,19 @@ header a {
 }
 
 main {
-  background-color: white;
+  background-color: rgb(14, 207, 49);
+  background-position: center;
+
 }
+@media (max-width: 960px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header h2 {
+    font-size: 18px;
+  }
+}
+
 
 main h2 {
   font-weight: 700;
@@ -121,6 +133,11 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
 }
+footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
 
 footer h3 {
   font-weight: 700;
