@@ -89,7 +89,7 @@ header {
     url("../images/Mya3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: rgb(6, 209, 33);
   text-align: center;
   padding: 200px 0;
 }
@@ -128,11 +128,11 @@ header a {
   letter-spacing: 3px;
   text-decoration: none;
   text-transform: uppercase;
-  background: white;
+  background: rgb(227, 98, 11);
 }
 
 main {
-  background-color: white;
+  background-color: rgb(238, 40, 165);
 }
 
 main h2 {
@@ -141,7 +141,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: #272044;
+  color: #ed1e93;
   opacity: 0.3;
   text-transform: uppercase;
 }
